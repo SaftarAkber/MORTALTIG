@@ -1,0 +1,44 @@
+@media only screen and (max-width: 992px) {
+  .connection-button-wrapper {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .navigation-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nft-wrapper img {
+    width: 250px;
+  }
+  .hamburger-menu-wrapper {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #banner .container h1 {
+    color: white;
+    font-size: 5vh;
+    display: flex;
+  }
+  .nft-wrapper img {
+    width: 100%;
+  }
+  .nft {
+    display: flex;
+    justify-content: center;
+  }
+  #banner {
+    padding-top: 100px;
+  }
+  #banner h1 {
+    display: none;
+  }
+  #banner p {
+    display: none;
+  }
+  #banner .solona-button {
+    display: none;
+  }
+}
