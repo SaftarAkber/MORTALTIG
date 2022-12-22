@@ -33,11 +33,11 @@
   <!-- Html Start -->
 
   <!-- Header -->
-  <header id="header">
+  <header >
     <div class="container">
-      <div class="row">
+      <div class="row"id="header">
         <div class="col-lg-2 col-8 header-item logo-wrapper">
-          <a href="#" class="logo">Logo</a>
+          <a href="#" class="logo"><img src="/images/logo_thumbnail.png" alt=""></a>
         </div>
         <div class="col-lg-8 col-4 header-item navigation-wrapper">
           <div class="hamburger-menu-wrapper">
@@ -45,15 +45,15 @@
           </div>
           <nav id="nav">
             <ul>
-              <li><a href="index.html">home</a></li>
+              <li><a href="#header">home</a></li>
               <li><a href="#nft">nft</a></li>
               <li><a href="#team">team</a></li>
               <li><a href="#roadmap">roadmap</a></li>
               <li><a href="#faq">faq</a></li>
-              <li><a href="staking.html">staking</a></li>
+              <li><a href="#staking.html">staking</a></li>
+              <li><a href="#partners">partners</a></li>
             </ul>
           </nav>
-          
         </div>
         <div class="col-lg-2 header-item connection-button-wrapper">
           <a href="#" class="connect-button solona-button">connect wallet</a>
@@ -65,14 +65,7 @@
   <main>
     <section id="banner">
       <div class="container">
-        <h1>Welcome to MortalTiger!</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
-          earum aut, placeat blanditiis incidunt quae molestiae tempora ipsa,
-          atque amet accusamus id dolor commodi hic repudiandae numquam
-          consequatur explicabo at!
-        </p>
-        <a href="#" class="solona-button">PLAY GAME</a>
+        <button href="#" class="play-button">PLAY GAME</button>
       </div>
     </section>
 
@@ -129,28 +122,40 @@
           <div class="team-item-wrapper">
             <div class="row">
               <div data-aos-once="true" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300"
-                data-aos="zoom-in" class="team-item my-2 col-lg-3 col-sm-6">
-                <img src="images/team2.jpeg" alt="" />
-                <h3>SAFTAR</h3>
-                <p>Game Developer</p>
+                data-aos="zoom-in" class="team-item my-2 col-lg-4 col-sm-6">
+                <img src="/images/afsar_akbarov.jfif" alt="" />
+                <h4>Afsar Akbarov</h4>
+                <p>Founder</p>
               </div>
               <div data-aos-duration="1000" data-aos-once="true" data-aos-delay="300" data-aos="zoom-in"
-                class="team-item my-2 col-lg-3 col-sm-6">
-                <img src="images/team4.jpeg" alt="" />
-                <h3>AFSAR</h3>
-                <p>Game Developer</p>
+                class="team-item my-2 col-lg-4 col-sm-6">
+                <img src="images/arif_mammadov.jfif" alt="" />
+                <h4>Arif Mammadov</h4>
+                <p>CEO</p>
               </div>
               <div data-aos-duration="1000" data-aos-once="true" data-aos-delay="300" data-aos="zoom-in"
-                class="team-item my-2 col-lg-3 col-sm-6">
-                <img src="images/team2.jpeg" alt="" />
-                <h3>ARIF</h3>
-                <p>Game Developer</p>
+                class="team-item my-2 col-lg-4 col-sm-6">
+                <img src="images/taghi_zarbaliyev.jfif" alt="" />
+                <h4>Taghi Zarbaliyev</h4>
+                <p>Social Manager</p>
               </div>
               <div data-aos-duration="1000" data-aos-once="true" data-aos-delay="300" data-aos="zoom-in"
-                class="team-item my-2 col-lg-3 col-sm-6">
-                <img src="images/team3.jpeg" alt="" />
-                <h3>GULNAZ</h3>
-                <p>Game Developer</p>
+                class="team-item my-2 col-lg-4 col-sm-6">
+                <img src="images/marat_bekov.jfif" alt="" />
+                <h4>Marat Bekov</h4>
+                <p>CMO</p>
+              </div>
+              <div data-aos-duration="1000" data-aos-once="true" data-aos-delay="300" data-aos="zoom-in"
+                class="team-item my-2 col-lg-4 col-sm-6">
+                <img src="images/humay_rzayeva.jpg" alt="" />
+                <h4>Humay Rzaeva</h4>
+                <p4>Back-end Developer</p4>
+              </div>
+              <div data-aos-duration="1000" data-aos-once="true" data-aos-delay="300" data-aos="zoom-in"
+                class="team-item my-2 col-lg-4 col-sm-6">
+                <img src="images/saftar_akbarov.jpg" alt="" />
+                <h4>Saftar Akbarov</h4>
+                <p>Front-end Developer</p>
               </div>
             </div>
           </div>
@@ -226,12 +231,13 @@ Q1 -Q2 2023
 5. Into Metaverse
       </pre>
     </section>
-    <section>
+    <!--FAQ-->
+    <section class="faqback" id="faq">
       <div class="container">
-        <div class="title" id="faq">
-          <h2>FAQ</h2>
+        <div class="title">
+          <h2 data-aos-once="true" data-aos="fade-right" data-aos-duration="500">FAQ</h2>
         </div>
-        <div class="faq">
+        <div class="faq" data-aos-once="true" data-aos="fade-right" data-aos-duration="500">
           <div class="question">
             <h4>How many Mortal Tigers you have in the first Art collection?</h4>
           </div>
@@ -239,7 +245,7 @@ Q1 -Q2 2023
             <p>5555 NFTs</p>
           </div>
         </div>
-        <div class="faq">
+        <div class="faq" data-aos-once="true" data-aos="fade-right" data-aos-duration="500">
           <div class="question">
             <h4>How much art collection will cost?</h4>
           </div>
@@ -247,7 +253,7 @@ Q1 -Q2 2023
             <p>TBA</p>
           </div>
         </div>
-        <div class="faq">
+        <div class="faq" data-aos-once="true" data-aos="fade-right" data-aos-duration="500">
           <div class="question">
             <h4>How many will you have a 3D NFT GIF in second collection?</h4>
           </div>
@@ -256,7 +262,7 @@ Q1 -Q2 2023
               collection.</p>
           </div>
         </div>
-        <div class="faq">
+        <div class="faq" data-aos-once="true" data-aos="fade-right" data-aos-duration="500">
           <div class="question">
             <h4>How can I get WL?</h4>
           </div>
@@ -265,7 +271,7 @@ Q1 -Q2 2023
               first holder of Art collection.</p>
           </div>
         </div>
-        <div class="faq">
+        <div class="faq" data-aos-once="true" data-aos="fade-right" data-aos-duration="500">
           <div class="question">
             <h4>Do you have a Token?</h4>
           </div>
@@ -273,7 +279,7 @@ Q1 -Q2 2023
             <p>Yes we have SPL $MTT Token.</p>
           </div>
         </div>
-        <div class="faq">
+        <div class="faq" data-aos-once="true" data-aos="fade-right" data-aos-duration="500">
           <div class="question">
             <h4>How can we get $MTT Token?</h4>
           </div>
@@ -282,7 +288,7 @@ Q1 -Q2 2023
               Game. Thirdly, you will be able to buy it on Market (Q2).</p>
           </div>
         </div>
-        <div class="faq">
+        <div class="faq" data-aos-once="true" data-aos="fade-right" data-aos-duration="500">
           <div class="question">
             <h4>When your $MTT will be listed on Market?</h4>
           </div>
@@ -290,7 +296,7 @@ Q1 -Q2 2023
             <p>It will be happen on Q2.</p>
           </div>
         </div>
-        <div class="faq">
+        <div class="faq" data-aos-once="true" data-aos="fade-right" data-aos-duration="500">
           <div class="question">
             <h4>When can I play Game?</h4>
           </div>
@@ -301,10 +307,41 @@ Q1 -Q2 2023
       </div>
       </div>
     </section>
+    <!--Partners-->
+    <section id="partners" class="partners" style="padding: 150px 0px 150px 0;">
+      <div class="container">
+        <div class="row">
+          <div data-aos-once="true" data-aos="fade-right" data-aos-duration="500" class="title">
+            <h1>Our Partners</h1>
+          </div>
+          <div class="partners-items">
+            <div class="row">
+              <div data-aos-once="true" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300"
+                data-aos="zoom-in" class="team-item my-2 col-lg-3 col-sm-6">
+                <img src="/images/puma.jfif" alt="Puma Azerbaijan" />
+                <h4 class="dist">Azerbaijan</h4>
+              </div>
+              <div data-aos-once="true" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300"
+                data-aos="zoom-in" class="team-item my-2 col-lg-3 col-sm-6">
+                <img src="/images/iebusinessschool.jfif" alt="iebusinessschool" />
+              </div>
+              <div data-aos-once="true" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300"
+                data-aos="zoom-in" class="team-item my-2 col-lg-3 col-sm-6">
+                <img src="/images/sabahlab.jfif" alt="sabahlab" />
+              </div>
+              <div data-aos-once="true" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300"
+                data-aos="zoom-in" class="team-item my-2 col-lg-3 col-sm-6">
+                <img src="/images/etherium.jfif" alt="etherium" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
     <footer>
-      <hr>
       <div class="col-12 d-flex justify-content-center">
-        <p style="color:#000">&copy; solonatiger.io </p>
+        <p class="company">&copy; solonatiger.io </p>
       </div>
       <hr>
     </footer>
