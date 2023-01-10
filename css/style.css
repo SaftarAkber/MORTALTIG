@@ -329,12 +329,35 @@ section.faqback {
   background: #31193ddf;
 }
 
-.dist{
+.dist {
   position: relative;
   bottom: 34%;
   left: 0;
   color: black;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight:900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
 }
 
+.docsforinfo{
+  margin: 15px 0;
+}
+
+.linksfordoc > a > li {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 20px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.linksfordoc > a > li:hover {
+  transition: all 0.5s ease-in-out;
+  color: rgb(112, 30, 127);
+}
+
+
+.fa-linkedin{
+  font-size: 1.8rem;
+}
